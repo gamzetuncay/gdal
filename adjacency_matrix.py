@@ -112,4 +112,4 @@ def adjacency_matrix(shpfname, output="M", num_shared_points=1):
 if __name__ == "__main__":
     shpfname = '../data/uscnty48area.shp'
     shpadj = adjacency_matrix(shpfname)
-    pickle.dump(shpadj, open('uscnty48area.adj.pickle', 'w'))
+    pickle.dump(shpadj, open('uscnty48area.adj.pickle', 'wb'))
